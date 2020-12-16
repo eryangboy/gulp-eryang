@@ -1,0 +1,39 @@
+{
+  "name": "gulp-eryang-demo",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "gulp-eryang-demo",
+    "zce"
+  ],
+  "homepage": "https://github.com/eryang/gulp-eryang-demo#readme",
+  "bugs": {
+    "url": "https://github.com/eryang/gulp-eryang-demo/issues"
+  },
+  "license": "MIT",
+  "author": "eryangboy <450867814@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eryang/gulp-eryang-demo.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
